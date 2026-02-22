@@ -13,7 +13,7 @@ header{
     background-color: #FFF8F3;
     padding-top: 50px;
     background: url(/images/developer.png),url(/images/header_bg.png),#FFF8F3;
-    background-position:top left,bottom right;
+    background-position:23px 38px,bottom right;
     background-repeat: no-repeat;
 
 }
@@ -104,7 +104,7 @@ nav .sabid{
     max-width: 584px;
     vertical-align: middle;
 }
-#about{
+#about,#skills,#sabid{
     padding-top: 130px;
 }
 #about .about-containar{
@@ -129,10 +129,7 @@ nav .sabid{
     color:#474747 ;
     line-height: 30px;
 }
-#skills{
-    margin: 130px;
 
-}
 .skills-container{
     width: 71%;
     max-width: 1140px;
@@ -164,4 +161,99 @@ nav .sabid{
     color: #757575;
     line-height: 28px;
     margin-bottom: 30px;
+}
+.resume-container{
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    margin: 113px auto 0;
+    gap: 24px;
+    
+}
+.sabid1{
+    font-size: 30px;
+   /* font-weight: bold; */
+   color: #474747;
+   margin-bottom: 30px;
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+.sabid2{
+    font-size: 25px;
+    color:#474747;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.s3{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.s4{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    /* margin-bottom: 60px; */
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+.resume-container{
+    display: flex;
+    text-align: center;
+}
+.shakil{
+    text-align: center;
+}
+.shakil1{
+    text-align: center;
+    margin: 50px;
+}
+.footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0px;
+}
+
+ .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer-h h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 34px;
+}
+.footer-h{
+    width: 562px;
+}
+.footer-h p{
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.icons a {
+   margin-right:24px ;
+}
+
+form h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+.footer-container form input[type="text"],
+.footer-container form textarea{
+   width: 461px;
+   padding: 18px 30px;
+   margin-bottom: 24px;
+   border: none;
+   border-radius: 5px;
+   color:#757575;
 }
